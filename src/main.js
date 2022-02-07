@@ -3,14 +3,12 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from './components/Home.vue';
-import CreateProduct from './components/CreateProduct.vue';
-import ProductList from './components/ProductList.vue';
+// import the missing components
 
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/createproduct', component: CreateProduct },
-    { path: '/products', component: ProductList },
+    { path: '/', component: Home }
+    // add the missing routes
 ];
 
 const router = createRouter({
