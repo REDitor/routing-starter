@@ -1,6 +1,6 @@
 <template>
   <navigation />
-  <router-view></router-view>
+  <!-- Add a router view -->
 </template>
 
 <script>
