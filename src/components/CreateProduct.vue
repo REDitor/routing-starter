@@ -43,8 +43,7 @@ export default {
   name: "CreateProduct",
   methods: {
       addProduct() {
-          // navigate to products here
-
+          this.$router.push('/products');
       }
   }
 };
