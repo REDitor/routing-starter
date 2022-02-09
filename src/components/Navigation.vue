@@ -3,16 +3,16 @@
     <div class="container-fluid">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <!-- Add a router link to the homepage (don't use the a tag!) -->
-          <a class="nav-link" active-class="active" href="#">Home</a>
+          <router-link to="/" activeClass="active" class="nav-link">Home</router-link>
         </li>
         <li class="nav-item">
-          <!-- Add a router link to the create product page (don't use the a tag!) -->
-          <a class="nav-link" active-class="active" href="#">Create product</a>
+           <router-link to="/products" activeClass="active" class="nav-link">Products</router-link>
         </li>
         <li class="nav-item">
-          <!-- add a router link to the products page (don't use the a tag!) -->
-          <a class="nav-link" active-class="active" href="#">Products</a>
+          <router-link to="/create" activeClass="active" class="nav-link">Create Product</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/about" activeClass="active" class="nav-link">About Us</router-link>
         </li>
       </ul>
     </div>
